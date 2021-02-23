@@ -17,10 +17,10 @@ const parseActiveDate = {
   else {
 
       if (this.state.activeDate === "All Time"){
-        queryEndpoint = `https://newsapi.org/v2/everything?q=${this.state.searchTerm}&sortBy=${this.state.activeSort}&apiKey=7f343861a56a4fb887526771c790668d`
+        queryEndpoint = `https://newsapi.org/v2/everything?q=${this.state.searchTerm}&sortBy=${this.state.activeSort}&apiKey=${API_KEY}`
       }
       else {
-        queryEndpoint = `https://newsapi.org/v2/everything?q=${this.state.searchTerm}&sortBy=${this.state.activeSort}&from=${parseActiveDate[this.state.activeDate]}&apiKey=7f343861a56a4fb887526771c790668d`
+        queryEndpoint = `https://newsapi.org/v2/everything?q=${this.state.searchTerm}&sortBy=${this.state.activeSort}&from=${parseActiveDate[this.state.activeDate]}&apiKey=${API_KEY}`
       }
   }
   console.log(queryEndpoint)
