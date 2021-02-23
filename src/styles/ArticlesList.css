@@ -1,0 +1,4 @@
+.articles-container {
+  max-width: 900px;
+  display: flex;
+}

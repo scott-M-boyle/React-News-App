@@ -1,0 +1,8 @@
+.main-container {
+  background-color: #DBF1FF;
+  display: flex;
+  flex-direction: column;
+  min-width: 980px;
+  max-width: 80%;
+  margin: 0 auto;
+}

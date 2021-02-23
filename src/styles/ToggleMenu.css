@@ -1,0 +1,18 @@
+.search-toggle-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.sort-by-text, .from-text {
+  font-size: 25px;
+  margin-left: 15px;
+}
+.sort-by-list {
+  padding-left: 10px;
+}
+
+
+li {
+  list-style: none;
+}

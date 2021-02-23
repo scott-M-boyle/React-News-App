@@ -1,0 +1,27 @@
+.toggle-active {
+  font-size: 23px;
+  padding: 10px 12px;
+  min-width: 180px;
+}
+
+.main-dropdown-container {
+  padding-left: 15px;
+}
+
+.dropdown-hidden {
+height: 0px;
+overflow: hidden;
+}
+.dropdown-show {
+  padding-left: 0px;
+  overflow: auto;
+  position: absolute;
+  background-color: white;
+  text-align: center;
+  width: 180px;
+  font-size: 30px;
+}
+
+.dropdown-item:hover {
+  cursor:pointer
+}
